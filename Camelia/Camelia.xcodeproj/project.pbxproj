@@ -13,6 +13,9 @@
 		8D660A7F1F51B64700580512 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D660A7D1F51B64700580512 /* RegisterViewController.xib */; };
 		8D660A851F51B93800580512 /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A841F51B93800580512 /* Jitterable.swift */; };
 		8D660A871F51B94D00580512 /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A861F51B94D00580512 /* Flashable.swift */; };
+		8D660A8A1F51B9D600580512 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A891F51B9D600580512 /* BaseButton.swift */; };
+		8D660A8C1F51B9F900580512 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A8B1F51B9F900580512 /* BaseLabel.swift */; };
+		8D660A8E1F51BA2B00580512 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A8D1F51BA2B00580512 /* BaseTextField.swift */; };
 		8DC280ED1F4DE3B100400394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BC1F4DE3B100400394 /* AppDelegate.swift */; };
 		8DC280EE1F4DE3B100400394 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BE1F4DE3B100400394 /* BaseNavigationController.swift */; };
 		8DC280EF1F4DE3B100400394 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BF1F4DE3B100400394 /* BaseViewController.swift */; };
@@ -52,6 +55,9 @@
 		8D660A7D1F51B64700580512 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		8D660A841F51B93800580512 /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
 		8D660A861F51B94D00580512 /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
+		8D660A891F51B9D600580512 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		8D660A8B1F51B9F900580512 /* BaseLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		8D660A8D1F51BA2B00580512 /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
 		8DC280A51F4DE2E600400394 /* Camelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC280BC1F4DE3B100400394 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC280BE1F4DE3B100400394 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
@@ -114,6 +120,16 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		8D660A881F51B9BF00580512 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D660A891F51B9D600580512 /* BaseButton.swift */,
+				8D660A8B1F51B9F900580512 /* BaseLabel.swift */,
+				8D660A8D1F51BA2B00580512 /* BaseTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		8DC2809C1F4DE2E600400394 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +184,7 @@
 		8DC280BD1F4DE3B100400394 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8D660A881F51B9BF00580512 /* Components */,
 				8DC280BE1F4DE3B100400394 /* BaseNavigationController.swift */,
 				8DC280BF1F4DE3B100400394 /* BaseViewController.swift */,
 			);
@@ -422,6 +439,9 @@
 				8DC280F21F4DE3B100400394 /* DefineStrings.swift in Sources */,
 				8DC280FA1F4DE3B100400394 /* MainCell.swift in Sources */,
 				8DC280F51F4DE3B100400394 /* UIViewControllerExtension.swift in Sources */,
+				8D660A8E1F51BA2B00580512 /* BaseTextField.swift in Sources */,
+				8D660A8C1F51B9F900580512 /* BaseLabel.swift in Sources */,
+				8D660A8A1F51B9D600580512 /* BaseButton.swift in Sources */,
 				8DC280FC1F4DE3B100400394 /* MainViewModel.swift in Sources */,
 				8DC280F41F4DE3B100400394 /* UITableViewCellExtension.swift in Sources */,
 				8D660A851F51B93800580512 /* Jitterable.swift in Sources */,
