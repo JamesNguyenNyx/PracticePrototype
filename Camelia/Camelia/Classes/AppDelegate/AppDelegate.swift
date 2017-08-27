@@ -29,7 +29,7 @@ fileprivate extension AppDelegate {
     
     fileprivate func configureLogin() {
         if isLogin() {
-            configureRootViewController()
+            setRootAuthenticationViewController()
         } else {
             setRootAuthenticationViewController()
         }
@@ -48,7 +48,7 @@ fileprivate extension AppDelegate {
     fileprivate func setRootAuthenticationViewController() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         if let window = self.window {
-            let mainViewController = MainViewController(nibName: MainViewController.className, bundle: nil)
+            let mainViewController = LoginViewController(nibName: LoginViewController.className, bundle: nil)
             let navigation = BaseNavigationController(rootViewController: mainViewController)
             window.rootViewController = navigation
             window.makeKeyAndVisible()
