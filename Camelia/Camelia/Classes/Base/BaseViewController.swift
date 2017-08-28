@@ -14,6 +14,10 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         self.configureNavigation()
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
 }
 

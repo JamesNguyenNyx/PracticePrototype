@@ -9,6 +9,11 @@
 import UIKit
 
 class LoginViewController: BaseViewController {
+    
+    @IBOutlet fileprivate weak var userName: BaseTextField?
+    @IBOutlet fileprivate weak var password: BaseTextField?
+    @IBOutlet fileprivate weak var errorLabel: BaseLabel?
+    @IBOutlet fileprivate weak var loginButton: BaseButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +29,13 @@ class LoginViewController: BaseViewController {
         self.navigationController?.navigationBar.isTranslucent = true
     }
     
+    @IBAction func actionLoginToApp(_ sender: UIButton) {
+        userName?.jitter()
+        password?.jitter()
+        loginButton?.jitter()
+        errorLabel?.flash()
+        errorLabel?.jitter()
+    }
     
 
 }
