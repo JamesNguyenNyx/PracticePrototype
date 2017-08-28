@@ -27,7 +27,7 @@ class MainViewController: BaseViewController {
 extension MainViewController {
     
     fileprivate func configureMainView() {
-        self.title = "Football Clubs"
+        self.title = "Camelia"
         self.configureTableView()
     }
     
@@ -41,17 +41,12 @@ extension MainViewController {
     }
     
     fileprivate func configureNavigation() {
-        let button = UIButton.init(type: .custom)
-        button.setImage(UIImage.init(named: "ic_addPerson.png"), for: UIControlState.normal)
-        button.addTarget(self, action:#selector(MainViewController.addPerson), for: UIControlEvents.touchUpInside)
-        button.frame = CGRect.init(x: 0, y: 0, width: 25, height: 25)
-        let barButton = UIBarButtonItem.init(customView: button)
-        self.navigationItem.rightBarButtonItem = barButton
+        self.backButtonOnNavigationBar(true)
+        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.navigationBar.isTranslucent = true
     }
     
-    @objc fileprivate func addPerson() {
-        
-    }
+
 
 
 

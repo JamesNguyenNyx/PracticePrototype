@@ -64,7 +64,7 @@
                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agE-ym-YQJ" userLabel="Line">
                                             <rect key="frame" x="20" y="105" width="240" height="1"/>
@@ -73,7 +73,7 @@
                                                 <constraint firstAttribute="height" constant="1" id="7UU-Sn-n1k"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter user name and password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPS-0H-p7W" userLabel="Error" customClass="BaseLabel" customModule="Camelia" customModuleProvider="target">
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter user name and password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPS-0H-p7W" userLabel="Error" customClass="BaseLabel" customModule="Camelia" customModuleProvider="target">
                                             <rect key="frame" x="10" y="179.5" width="260" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
                                             <color key="textColor" red="1" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
