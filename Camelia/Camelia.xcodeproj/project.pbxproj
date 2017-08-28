@@ -30,6 +30,7 @@
 		8D660A8E1F51BA2B00580512 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D660A8D1F51BA2B00580512 /* BaseTextField.swift */; };
 		8DB9E3E71F5477FF00BAAE67 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9E3E51F5477FF00BAAE67 /* IntroViewController.swift */; };
 		8DB9E3E81F5477FF00BAAE67 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB9E3E61F5477FF00BAAE67 /* IntroViewController.xib */; };
+		8DB9E3EA1F547E7000BAAE67 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9E3E91F547E7000BAAE67 /* PageModel.swift */; };
 		8DC280ED1F4DE3B100400394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BC1F4DE3B100400394 /* AppDelegate.swift */; };
 		8DC280EE1F4DE3B100400394 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BE1F4DE3B100400394 /* BaseNavigationController.swift */; };
 		8DC280EF1F4DE3B100400394 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC280BF1F4DE3B100400394 /* BaseViewController.swift */; };
@@ -96,6 +97,7 @@
 		8D660A8D1F51BA2B00580512 /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
 		8DB9E3E51F5477FF00BAAE67 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		8DB9E3E61F5477FF00BAAE67 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		8DB9E3E91F547E7000BAAE67 /* PageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 		8DC280A51F4DE2E600400394 /* Camelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC280BC1F4DE3B100400394 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC280BE1F4DE3B100400394 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				8DC280CD1F4DE3B100400394 /* MainModel.swift */,
+				8DB9E3E91F547E7000BAAE67 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 				8D660A8A1F51B9D600580512 /* BaseButton.swift in Sources */,
 				8DC280FC1F4DE3B100400394 /* MainViewModel.swift in Sources */,
 				8DC280F41F4DE3B100400394 /* UITableViewCellExtension.swift in Sources */,
+				8DB9E3EA1F547E7000BAAE67 /* PageModel.swift in Sources */,
 				8D660A851F51B93800580512 /* Jitterable.swift in Sources */,
 				8DC280EF1F4DE3B100400394 /* BaseViewController.swift in Sources */,
 				8D660A7E1F51B64700580512 /* RegisterViewController.swift in Sources */,
