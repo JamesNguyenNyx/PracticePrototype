@@ -214,6 +214,7 @@
                 <constraint firstItem="dgZ-q2-Kqx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b01-SK-cfa"/>
                 <constraint firstAttribute="bottom" secondItem="dgZ-q2-Kqx" secondAttribute="bottom" id="rkJ-bv-Dyt"/>
             </constraints>
+            <point key="canvasLocation" x="-100" y="34"/>
         </view>
     </objects>
     <resources>
